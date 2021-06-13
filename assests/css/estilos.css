@@ -63,6 +63,8 @@ body{
     display: grid;
     grid-template-columns: repeat(auto, minmax(300px, 1fr));
     grid-gap: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .ImagenesLocales{
@@ -354,34 +356,99 @@ body{
 /*Aca empieza las propiedades de Institucional.html*/
 
 
-#InstitucionalViews {
-    background-color: burlywood;
-}
+.container3 {
+  background-color: burlywood;
+  margin: 0px;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 5%;
+  }
 
-#TituloInstitucional {
-
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: bolder;
+  .container-time {
+    background-color: rgba(0, 0, 0, .95);
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
     text-align: center;
-    color: black;
-    font-size: 35px;
-    font-family: 'PT Sans', sans-serif;
-}
+    }
 
-#ParrafosInstitucional {
+    .heading {
+      font-size: 35px;
+      text-transform: uppercase;
+      color: white;
+      }
+      
+    .heading1 {
+      color: black;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
+      .heading-days {
+      color:#998100;
+      font-size: 30px;
+      }
+    
+      .heading-days1 {
+        color: white;
+      }
 
-    font-style: normal;
-    width: 300px;
-    padding-left: 200px;
-    padding-right: 0px;
+      .heading-phone {
+      font-size: 20px;
+      color: white;
+      }
 
-}
+      .container-form {
+        padding: 20px 0;
+        margin: 0 auto;
+        color: #000;
+        }
 
-#ImagenInstitucional{
-    float: right;
-    height: 500px;
-}
+        form {
+          display: grid;
+          grid-row-gap: 20px;
+          }
+          form p {
+          font-weight: 600;
+          }
+          .form-field {
+          display: flex;
+          justify-content: space-between;
+          }
+          
+          input,select {
+          padding: 10px 15px;
+          }
+
+          .btn {
+            background-color: rgba(0, 0, 0, .95);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            font-size: 18px;
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            -ms-transition: all .3s;
+            -o-transition: all .3s;
+            }
+            
+            .btn:hover {
+            transform: scale(1.03);
+            -webkit-transform: scale(1.03);
+            -moz-transform: scale(1.03);
+            -ms-transform: scale(1.03);
+            -o-transform: scale(1.03);
+            box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+            }
+
 
 
 /*Aca empieza las propiedades CSS de lo que seria el inicio (index.html)*/
@@ -488,6 +555,8 @@ body{
 #ImagenTextoInicio {
     display: flex;
     flex-direction: row;
+    padding-left: 5%;
+    padding-bottom: 2%;
 }
 
 #titulos {
@@ -506,6 +575,7 @@ body{
     border-style: solid;
     width: 33%;
     float: right;
+    padding-top: 2%;
 }
 
 /*esto es para dispositivos de telefono*/
@@ -575,7 +645,6 @@ body{
   width: 100%;
   display: inline-block;
   background: white;
-  height: 50vh;
   text-align: center;
   font-size: 22px;
   font-weight: 700;

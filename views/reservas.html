@@ -5,9 +5,9 @@
     <meta charset="UTF-8">    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <meta name="description" content="Esta es la parte institucional de Steak House donde te contamos un poco de nuestra historia y de como se origino el restaurante">
-    <meta name="keywords" content="Steak House Institucional, Steak House información, Steak House historia">
-    <title> Institucional Steak House </title>
+    <meta name="description" content="Esta es la parte donde el usuario puede reservar en el restaurante para ir a comer">
+    <meta name="keywords" content="Steak House Reservas">
+    <title> Reservas Steak House </title>
 
     <link rel="stylesheet"   type="text/css"  href="../assests/css/estilos.css">
 </head>
@@ -23,7 +23,7 @@
               <li> <a  href="../views/menu.html"> Menú</a> </li>
               <li> <a  href="../views/galeria.html"> Galería</a> </li>
               <li> <a  href="../views/locales.html"> Locales</a> </li>
-              <li> <a  class="active" href="../views/institucional.html"> Institucional</a> </li>
+              <li> <a  class="active" href="../views/institucional.html"> Reservas</a> </li>
               
             </ul>
             </div>
@@ -31,40 +31,63 @@
           </nav>
 
         <div class="TituloViews">
-          <p>INSTITUCIONAL</p>
+          <p>RESERVAS</p>
         </div>
     </header>  
 
-    <body> 
-        <div id="InstitucionalViews"> 
-
-            <img src="../imagen/Institucional.png" id="ImagenInstitucional" width="50%">
-
-            <div> 
-             <h1 id="TituloInstitucional"> Un poco de nuestra historia </h1>
-            <div id="ParrafosInstitucional">
-                <div>
-                 <p> Steak House es un restaurant de Contemporary American Cuisine. El primer Restaurant fue inaugurado en Junio de 1999 en San Isidro. </p>
-                </div>
-
-                <div>
-                    <p> Nuestra visión es aportar alimentos de calidad en un ambiente placentero a través de un servicio excelente.</p>
-                </div>
-
-                <div> 
-                    <p> En Steak House estamos deseosos de satisfacer la confianza que los clientes nos depositan. Procuramos prestar atención a los más pequeños detalles para lograr un servicio rápido y eficiente que supere todas las expectativas.</p>
-                </div>
-
-                <div> 
-                    <p>  En Steak House consideramos que la música, la arquitectura y la decoración son componentes esenciales de la experiencia gastronómica. Fundimos todos estos elementos para crear un ambience placentero que exalte las sensaciones del paladar. Cada uno de nuestros locales tiene su propio carácter: en su construcción se ha prestado especial atención a los materiales utilizados y al diseño de sus espacios interiores.</p>
-                </div>
-
-                <div>
-                    <p>Esperamos verlos pronto y acuerdense "La magia del sabor".</p>
-                </div>
-            </div>
-            
-          </div>
+    <div class="container3"> 
+      <div class="container-time">
+      <h2 class="heading">Horario</h2>
+      <h3 class="heading-days">Lunes-Viernes</h3>
+      <p class="heading-days1"> 12am - 2pm (Almuerzo)</p>
+      <p class="heading-days1"> 7pm - 12pm (Cena)</p>
+      
+      <h3 class="heading-days">Sabados y Domingos</h3>
+      <p class="heading-days1"> 13am - 3am (Desayuno)</p>
+      <p class="heading-days1"> 8pm - 1am (Almuerzo/Cena)</p>
+      
+      <hr>
+      
+      <h4 class="heading-phone">Llamanos: +54 9 11 3629-1942 </h4>
+      </div>
+      
+      <div class="container-form">
+      <form action="#">
+      <h2 class="heading1">Reservas Online</h2>
+      
+      <div class="form-field">
+      <p>Nombre </p>
+      <input type="text" placeholder="Tu nombre y apellido">
+      </div>
+      <div class="form-field">
+      <p>Email</p>
+      <input type="email" placeholder="Tu email">
+      </div>
+      <div class="form-field">
+      <p>Día</p>
+      <input type="date">
+      </div>
+      <div class="form-field">
+      <p>Horario</p>
+      <input type="time">
+      </div>
+      <div class="form-field">
+      <p>Cuántas personas?</p>
+      <select name="select" id="#">
+      <option value="1">1 persona</option>
+      <option value="2">2 personas</option>
+      <option value="3">3 persosas</option>
+      <option value="4">4 personas</option>
+      <option value="5">5 personas</option>
+      <option value="5+">5+ personas</option>
+      </select>
+      </div>
+      
+      <button class="btn">Confirmar</button>
+      </form>
+      </div>
+      </div>
+   
     </body>
 
     <div class="FooterSection">
