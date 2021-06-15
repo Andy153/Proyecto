@@ -261,6 +261,11 @@ body{
 	-webkit-transform: translateY(-50%);
 }
 
+.img-thumbnail {
+  width: 50%;
+  height: 50%;
+}
+
 /*Aca termina las propiedades CSS de lo que seria galeria.html*/
 
 /*Aca empieza las propiedades de CSS de lo que seria Menú.HTML*/
