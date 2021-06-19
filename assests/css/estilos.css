@@ -52,9 +52,6 @@ body{
     display: inline-block;}
 	.contant_box_404{ margin-top:-50px;}
 
- 
-
-
 /*Aca termina las porpiedades CSS para la pagina error404*/
 
 /*Aca empieza las propiedades CSS de locales.html*/
@@ -354,8 +351,6 @@ body{
       height: 125px;
     }
   }
-  
-
 /*Aca termina las propiedades CSS de lo que seria el menu.html*/
 
 /*Aca empieza las propiedades de reservas.html*/
@@ -588,61 +583,6 @@ body{
     padding-top: 2%;
 }
 
-/*esto es para dispositivos de telefono*/
-@media only screen and (min-width: 768px) {
-    .carousel-inner{
-        width: 10 0%;
-        height: 50%;
-    }
-    /*Aca irian las propiedades especiales dentro de un dispositivo celular*/
-    .miestilo {
-        text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        text-transform: none;
-        border: black;
-        border-style: solid;
-        width: 75%;
-        height: auto;
-        float: right;   
-     } 
-    }
-
-    
-
-/*esto es para dispositivos de tablet*/
-@media only screen and (max-width: 768px) {
-
-}
-    /*Aca irian las propiedades especiales dentro de un dispositivo tablet*/
-    #Parrafos4 {
-        text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        text-transform: none;
-        border: black;
-        border-style: solid;
-        width: 75%;
-        height: auto;
-        float: right;
-
-}
-
-/*Esto es para dispositivo de desktop*/
-@media only screen and (min-width: 1024px) {
-    /*aca irian las propiedades especiales dentro de un dispositivo desktop*/
-    
-
-        #center {
-            display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 25%;
-        }
-        
-    }
-
-
 /*El footer se usa repetido para todos los htmls*/
 
 @import url(https://bit.ly/3fhApjT);
@@ -820,7 +760,7 @@ body{
 	margin-bottom: 5px;
 }
 
-
+/*Aca empieza todo el media queries*/
 
 @media (max-width: 880px) {
 
@@ -840,7 +780,194 @@ body{
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
 }
 
+
+@media only screen and (min-width: 768px)  {
+
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+  }
   
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  .EncabezadoViews {
+    background-image: url("https://i.imgur.com/Hb3lXB9.png");
+    background-size: 1200px; height: 200px;width: 980px;
+    background-repeat: no-repeat;
+  }
+
+  .four_zero_four_bg{
+    background-image: url(https://bit.ly/3ur0ba1);
+       height: 700px;
+       background-position: center;
+       background-repeat: no-repeat;
+    }
+    
+    
+    .four_zero_four_bg h1{
+    font-size:80px;
+    }
+    
+     .four_zero_four_bg h3{
+          font-size:80px;
+          }
+          
+          .link_404{			 
+     color: #fff!important;
+       padding: 30px 50px;
+       background: #39ac31;
+       margin: 20px 0;
+       display: inline-block;}
+     .contant_box_404{ margin-top:-50px;}
+}
+@media only screen and (max-width: 768px) {
+
+}
+  
+  #Parrafos4 {
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      text-transform: none;
+      border: black;
+      border-style: solid;
+      width: 75%;
+      height: auto;
+      float: right;
+  }
+      
+
+/*Esto es para dispositivo de desktop*/
+@media only screen and (min-width: 1024px) {
+  /*aca irian las propiedades especiales dentro de un dispositivo desktop*/
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: auto;
+  }
+  
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 125px;
+      height: 125px;
+    }
+  }
+      #center {
+          display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+      }
+
+      .EncabezadoViews {
+        background-image: url("https://i.imgur.com/Hb3lXB9.png");
+        background-size: 1900px; height: 200px;width: 1900px;
+        background-repeat: no-repeat;
+    }
+
+    .four_zero_four_bg{
+      background-image: url(https://bit.ly/3ur0ba1);
+         height: 500px;
+         background-position: center;
+         background-repeat: no-repeat;
+      }
+      
+  }
